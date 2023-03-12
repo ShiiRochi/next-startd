@@ -19,7 +19,12 @@
     "type-check": "tsc",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "format": "prettier --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\" --write",
-    "postinstall": "husky install"
+    "postinstall": "husky install",
+    "test": "jest --watch",
+    "test:ci": "jest --ci",
+    "e2e": "playwright test",
+    "e2e:ci": "cross-env CI=true HEADLESS=false yarn e2e",
+    "e2e:ci:headless": "cross-env CI=true yarn e2e"
   },
   "lint-staged": {
     "./src/**/*.{ts,js,jsx,tsx}": [

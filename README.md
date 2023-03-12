@@ -16,6 +16,10 @@ A free Next.js TypeScript landing page template for SaaS products, online servic
 - ⚡ **Next.js** — The React Framework
 - 🔥 **next-seo** — Manage SEO easily
 - 💡 **Twind** — The smallest, fastest, most feature complete Tailwind-in-JS solution in existence
+- 🛷 **MSW** — Mock API
+- 🎲 **Faker** — Mock data
+- 🚦 **Jest** — Unit & Integration Tests
+- 🎭 **Playwright** — E2E tests
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** — Opinionated Code Formatter
 - 🐶 **Husky** — Use git hooks with ease

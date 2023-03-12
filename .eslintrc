@@ -17,6 +17,7 @@
   "plugins": ["import", "jsx-a11y", "react", "react-hooks", "prettier"],
   "extends": ["next/core-web-vitals", "airbnb", "eslint-config-prettier", "prettier"],
   "rules": {
+    "@next/next/no-html-link-for-pages": "warn",
     "prettier/prettier": "error",
     "camelcase": "off",
     "import/prefer-default-export": "off",
